@@ -335,7 +335,7 @@ export default function Galaxy({
     twinkleIntensity = 0.7,
     rotationSpeed =0.1,
     repulsionStrength = 1.0,
-    autoCenterRepulsion = 1,
+    autoCenterRepulsion = 2.5,
     transparent,
   ]);
 
