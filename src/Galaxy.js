@@ -323,19 +323,19 @@ export default function Galaxy({
   }, [
     focal,
     rotation,
-    starSpeed = 0.5,
-    density = 1,
+    starSpeed = 0.2,
+    density = 1.2,
     hueShift = 100,
     disableAnimation,
     speed,
     mouseInteraction,
     glowIntensity = 0.5,
     saturation = 1,
-    mouseRepulsion = true,
+    mouseRepulsion,
     twinkleIntensity = 0.7,
     rotationSpeed =0.1,
     repulsionStrength = 1.0,
-    autoCenterRepulsion = 2.5,
+    autoCenterRepulsion = 2,
     transparent,
   ]);
 
