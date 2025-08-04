@@ -321,22 +321,22 @@ export default function Galaxy({
       gl.getExtension("WEBGL_lose_context")?.loseContext();
     };
   }, [
-    focal,
-    rotation,
-    starSpeed = 0.2,
-    density = 1.2,
-    hueShift = 100,
-    disableAnimation,
-    speed,
-    mouseInteraction,
-    glowIntensity = 0.5,
-    saturation = 1,
-    mouseRepulsion,
-    twinkleIntensity = 0.7,
-    rotationSpeed =0.1,
-    repulsionStrength = 1.0,
-    autoCenterRepulsion = 2,
-    transparent,
+ focal = [0.5, 0.5],
+  rotation = [1.0, 0.0],
+  starSpeed = 0.5,
+  density = 1,
+  hueShift = 140,
+  disableAnimation = false,
+  speed = 1.0,
+  mouseInteraction = true,
+  glowIntensity = 0.3,
+  saturation = 0.0,
+  mouseRepulsion = true,
+  repulsionStrength = 1,
+  twinkleIntensity = 0.3,
+  rotationSpeed = 0.1,
+  autoCenterRepulsion = 0,
+  transparent = false,
   ]);
 
   return <div ref={ctnDom} className="galaxy-container" {...rest} />;
